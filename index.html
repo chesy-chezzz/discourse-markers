@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework – Class 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7fb;
+            color: #1e2a3a;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 850px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 28px;
+            padding: 40px 45px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 2.2rem;
+            color: #0f2027;
+            border-bottom: 4px solid #ffd700;
+            padding-bottom: 12px;
+            margin-bottom: 30px;
+            letter-spacing: -0.5px;
+        }
+        h2 {
+            font-size: 1.6rem;
+            color: #1e3c72;
+            margin-top: 35px;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        h2 .badge {
+            background: #1e3c72;
+            color: #fff;
+            font-size: 0.9rem;
+            padding: 4px 14px;
+            border-radius: 40px;
+            font-weight: 500;
+        }
+        .task-intro {
+            background: #f0f4fe;
+            padding: 16px 22px;
+            border-radius: 14px;
+            margin-bottom: 25px;
+            font-size: 1.05rem;
+            color: #1e3c72;
+            border-left: 6px solid #ffd700;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0 10px 0;
+            font-size: 1.05rem;
+        }
+        th {
+            background: #1e3c72;
+            color: #fff;
+            padding: 12px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+        td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #e2e8f0;
+            vertical-align: top;
+        }
+        tr:nth-child(even) {
+            background: #f8faff;
+        }
+        .marker-en {
+            font-weight: 600;
+            color: #0f2027;
+        }
+        .marker-ru {
+            color: #2a5298;
+            font-weight: 500;
+        }
+        .example {
+            color: #4a5568;
+            font-size: 0.92rem;
+            font-style: italic;
+        }
+
+        .exercise-box {
+            background: #fafcff;
+            border: 2px solid #e2e8f0;
+            border-radius: 18px;
+            padding: 20px 25px;
+            margin: 20px 0;
+        }
+        .exercise-box p {
+            margin: 14px 0;
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+        .exercise-box .q {
+            font-weight: 500;
+        }
+        .blank {
+            display: inline-block;
+            min-width: 120px;
+            border-bottom: 2px dashed #a0aec0;
+            margin: 0 4px;
+            padding: 0 6px;
+            font-weight: 600;
+            color: #c05621;
+        }
+        .footer-note {
+            margin-top: 25px;
+            text-align: center;
+            color: #718096;
+            font-size: 0.95rem;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 24px 18px; }
+            h1 { font-size: 1.8rem; }
+            table, .exercise-box p { font-size: 0.95rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📘 Homework – Class 1</h1>
+    <p style="font-size:1.1rem; color:#2d3748; margin-bottom:10px;">
+        <strong>Goal:</strong> Solidify B2 discourse markers and practise using them naturally.
+    </p>
+
+    <!-- ===== TASK 1 ===== -->
+    <h2>Task 1 <span class="badge">Reference</span></h2>
+    <div class="task-intro">
+        <strong>🔹 Discursive Markers (Связующие слова) – B2 level</strong><br>
+        Study these markers with their Russian translations. They will help you connect ideas fluently.
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>English</th>
+                <th>Русский перевод</th>
+                <th>Example / Пример</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td class="marker-en">However</td><td class="marker-ru">Однако</td><td class="example">I wanted to help. However, I was too busy.</td></tr>
+            <tr><td class="marker-en">Furthermore</td><td class="marker-ru">Кроме того</td><td class="example">She is a great manager. Furthermore, she is very supportive.</td></tr>
+            <tr><td class="marker-en">Nevertheless</td><td class="marker-ru">Тем не менее</td><td class="example">It was raining. Nevertheless, we went for a walk.</td></tr>
+            <tr><td class="marker-en">Moreover</td><td class="marker-ru">Более того</td><td class="example">The product is cheap. Moreover, it is high quality.</td></tr>
+            <tr><td class="marker-en">On the other hand</td><td class="marker-ru">С другой стороны</td><td class="example">Some prefer office work. On the other hand, others love remote.</td></tr>
+            <tr><td class="marker-en">Consequently</td><td class="marker-ru">Следовательно</td><td class="example">Sales dropped. Consequently, we changed our strategy.</td></tr>
+            <tr><td class="marker-en">Therefore</td><td class="marker-ru">Поэтому</td><td class="example">He studied hard. Therefore, he passed the exam.</td></tr>
+            <tr><td class="marker-en">For instance</td><td class="marker-ru">Например</td><td class="example">We have many options. For instance, we could hire a consultant.</td></tr>
+            <tr><td class="marker-en">In addition</td><td class="marker-ru">В дополнение</td><td class="example">The hotel has a pool. In addition, it has a spa.</td></tr>
+            <tr><td class="marker-en">As a result</td><td class="marker-ru">В результате</td><td class="example">The team worked late. As a result, they finished early.</td></tr>
+        </tbody>
+    </table>
+
+    <!-- ===== TASK 2 ===== -->
+    <h2>Task 2 <span class="badge">Practice</span></h2>
+    <div class="task-intro">
+        <strong>✏️ Choose the correct discursive marker</strong><br>
+        Fill in each blank with the best marker from the box below. 
+        <span style="display:block; margin-top:6px; background:#e2e8f0; padding:8px 14px; border-radius:30px; display:inline-block;">
+            <strong>Box:</strong> However &nbsp;·&nbsp; Furthermore &nbsp;·&nbsp; Nevertheless &nbsp;·&nbsp; Moreover &nbsp;·&nbsp; On the other hand &nbsp;·&nbsp; Consequently &nbsp;·&nbsp; Therefore &nbsp;·&nbsp; For instance &nbsp;·&nbsp; In addition &nbsp;·&nbsp; As a result
+        </span>
+        <span style="display:block; margin-top:8px; color:#4a5568;">📌 No score – just practise. Bring your answers to Class 2 and we'll check them together.</span>
+    </div>
+
+    <div class="exercise-box">
+        <p><span class="q">1.</span> The company invested in new technology. <span class="blank">__________</span>, productivity increased significantly.</p>
+        <p><span class="q">2.</span> She wanted to join the project. <span class="blank">__________</span>, she didn't have the required experience.</p>
+        <p><span class="q">3.</span> He is a skilled programmer. <span class="blank">__________</span>, he is also an excellent communicator.</p>
+        <p><span class="q">4.</span> The weather forecast was bad. <span class="blank">__________</span>, we decided to postpone the event.</p>
+        <p><span class="q">5.</span> We have several options. <span class="blank">__________</span>, we could hire an external consultant.</p>
+        <p><span class="q">6.</span> The product is high quality. <span class="blank">__________</span>, it is quite expensive.</p>
+        <p><span class="q">7.</span> The team worked late. <span class="blank">__________</span>, they finished the report on time.</p>
+        <p><span class="q">8.</span> He is a great leader. <span class="blank">__________</span>, he always motivates his team.</p>
+        <p><span class="q">9.</span> The market is changing rapidly. <span class="blank">__________</span>, we need to adapt our strategy.</p>
+        <p><span class="q">10.</span> We need to reduce costs. <span class="blank">__________</span>, we should renegotiate with suppliers.</p>
+    </div>
+
+    <div class="footer-note">
+        ⏱️ Estimated time: <strong>15–20 minutes</strong> &nbsp;·&nbsp; Bring your answers to Class 2!
+    </div>
+</div>
+</body>
+</html>
